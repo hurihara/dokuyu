@@ -1,29 +1,23 @@
 <html>
 <head>
     <style>
-        body {
-            /* 画像を画面いっぱいに広げる */
-            background-image: url('IMG_0723.jpeg');
-            
-            /* 敷き詰めない設定 */
-            background-repeat: no-repeat;
-            
-            /* 画面の真ん中に配置 */
-            background-position: center center;
-            
-            /* 画面サイズに合わせて自動調整 */
-            background-size: cover;
-            
-            /* スクロールしても背景を固定する魔法！ */
-            background-attachment: fixed;
-            
-            /* 背景が読み込まれるまでの保険の色 */
-            background-color: #000;
-            
-            /* 文字の色 */
-            color: #FFFFFF;
-        }
-    </style>
+    body {
+        /* さっきの背景設定はそのまま！ */
+        background-image: url('無題727_20260616204533.jpeg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        background-attachment: fixed;
+        background-color: #000;
+        color: #FFFFFF;
+
+        /* ここからが重要！フォントと縁取りの設定だよ */
+        font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+        
+        /* 文字に黒い影を4方向にちょっとだけつけて縁取りっぽくする！ */
+        text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    }
+</style>
 </head>
 <body>
 
