@@ -11,14 +11,16 @@ body {
 }
 
 .nikki {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0,0,0,0.7);
     width: 80%;
     max-width: 700px;
     margin: 20px auto;
     padding: 20px;
-    border: 2px solid white;
-}
 
+    border-radius: 15px;
+
+    box-shadow: 0 0 15px white;
+}
 .nikki h2 {
     margin-top: 0;
 }
