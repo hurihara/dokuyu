@@ -1,0 +1,119 @@
+/* 茹で汁専用CSS */
+
+body {
+
+```
+/* 背景はそのまま */
+background-image: url('IMG_0723.jpeg');
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+
+background-color: #000;
+
+color: #d8d8d8;
+
+font-family: "MS Gothic", monospace;
+
+text-shadow: none;
+
+letter-spacing: 2px;
+```
+
+}
+
+/* タイトル */
+
+h1 {
+letter-spacing: 8px;
+
+```
+font-weight: normal;
+
+margin-top: 60px;
+
+opacity: 0.9;
+```
+
+}
+
+/* 通信タイトル */
+
+.yude-title {
+
+```
+width: 70%;
+
+max-width: 600px;
+
+margin: 50px auto;
+
+padding: 25px;
+
+background: rgba(0,0,0,0.55);
+
+border-left: 3px solid #888;
+
+text-align: center;
+
+font-size: 18px;
+```
+
+}
+
+/* 本文 */
+
+.nikki {
+
+```
+width: 65%;
+
+max-width: 500px;
+
+margin: 80px auto;
+
+padding: 10px;
+
+background: rgba(0,0,0,0.25);
+
+border-left: 1px solid #555;
+
+line-height: 2.2;
+```
+
+}
+
+/* リンク */
+
+a {
+
+```
+color: #999;
+
+text-decoration: none;
+```
+
+}
+
+a:hover {
+
+```
+color: white;
+```
+
+}
+
+/* 小さいメモ */
+
+.tiny {
+
+```
+font-size: 9px;
+
+opacity: 0.4;
+
+margin-top: 40px;
+```
+
+}
