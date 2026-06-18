@@ -24,3 +24,19 @@ body {
 .nikki h2 {
     margin-top: 0;
 }
+
+.yude-title {
+    background: rgba(0, 0, 0, 0.8);
+
+    width: 80%;
+    max-width: 700px;
+
+    margin: 20px auto;
+    padding: 15px;
+
+    border: 2px solid white;
+
+    text-align: center;
+
+    font-size: 20px;
+}
